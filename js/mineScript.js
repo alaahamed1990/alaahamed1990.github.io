@@ -156,7 +156,7 @@ $scope.HideSelectedImage=function()
         $scope.ClientSideTechnologies = ["Javascript", "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight","Phonegap"];
 
 
-        $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework"];
+        $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework","MS Testing"];
     }
 
 

@@ -132,7 +132,7 @@
                     </div>
                 </div>
             </div>
-              <h4 class="text-center note"> Other Projects can be found in resume </h3>
+              <h4 class="text-center note"> Other Projects can be found in <a href="http://alaahamed1990.github.io/Uploads/Cv.pdf" style="text-decoration:underline;;" >resume</a> </h3>
         </div>
     </section>
     <!-- About Section -->
@@ -157,10 +157,10 @@
             </div>
 
             <div class="text-center">
-            <a href="#" class="btn btn-lg btn-outline">
+            <a href="http://alaahamed1990.github.io/Uploads/Cv.pdf" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Resume
                     </a>
-                              <a href="#" class="btn btn-lg btn-outline">
+                              <a href="https://www.dropbox.com/s/buvnqlr1pz1cq3r/4434028399971171_alaahamed%20-%20csharpassignment.zip?dl=0" class="btn btn-lg btn-outline">
                                           <i class="fa fa-download"></i> Work Sample
                                       </a>
 
@@ -200,16 +200,13 @@
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://eg.linkedin.com/in/alaa-hamed-6605a7a2" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                <a href="https://github.com/alaahamed1990" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://www.freecodecamp.com/egydev1990" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -300,26 +297,7 @@
                             <!--<img src="{{SelectedProject.Src}}" class="img-responsive img-centered" alt="">-->
                             <div class="well" style="margin-top:10px; background-color:#2C3E50; color:white; font-family: FontAwesome;">
                                     <div class="well">
-                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                    <!-- Indicators -->
-                                    <!-- Wrapper for slides -->
-                                    <ul class="carousel-inner" role="listbox">
-                                        <li class="{{$index==0?'item active':'item'}}" ng-repeat="ScreenShot in SelectedProject.ScreenShots  track by $index">
-                                              <span ng-click="SetSelectedUrl(ScreenShot)" class="portfolio-link" data-toggle="modal">
-                                                    <img  src="{{ScreenShot}}" alt="Chania" class="portfolio-link img-responsive center-block zoomCursor">
-                                              </span>
-                                        </li>
-                                    </ul>
-                                    <!-- Left and right controls -->
-                                    <a class="carousel-control left" href="#myCarousel" role="button" data-slide="prev">
-                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control right" href="#myCarousel" role="button" data-slide="next">
-                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
+                                      <img  src="{{SelectedProject.MainImage}}" alt="Chania" class="portfolio-link img-responsive center-block zoomCursor">
 
 
 
@@ -340,7 +318,7 @@
                               </div>
 
 
-                                <a href="{{SelectedProject.WebLink}}"  ng-if="SelectedProject.MobileLink"><button type="button" class="btn btn-default" ><i class="fa fa-external-link"></i>Link</button></a>
+                                <a href="{{SelectedProject.WebLink}}"  ng-if="SelectedProject.WebLink"><button type="button" class="btn btn-default" ><i class="fa fa-external-link"></i>Link</button></a>
 
                                 <a ng-if="SelectedProject.MobileLink" href="{{SelectedProject.MobileLink}}"><button type="button" class="btn btn-default" ><i class="fa fa-mobile"></i>Mobile Url</button></a>
 

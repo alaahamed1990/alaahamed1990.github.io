@@ -43,10 +43,11 @@ $scope.HideSelectedImage=function()
                 Title: "Geo-Explorer (Web)",
                 Description: "This is a web application that provides different geo-spatial functions like searching ,redlining , measuring ,exporting map ,drawing cad , etc....",
                 AwesomeIcon: "globe",
-                UsedPlaces:"It was used in Hail and Madinah municipalies and also in  Riyadh Agency for Municipal and Rural Affairs and also KSA Ministry of Municipal and Rural Affairs.",
+                UsedPlaces:"It was used in Hail and Madinah municipalities and also in  Riyadh Agency for Municipal and Rural Affairs and also KSA Ministry of Municipal and Rural Affairs.",
                 ScreenShots:["img/portfolio/geoExp/logo.png","img/portfolio/geoExp/secondScreen.png"],
-                WebLink: "http://83.101.140.98/geoexplorer/",
-                Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax , Web API and SOE."
+                WebLink: "http://83.101.140.98/hajlexp/",
+                Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax , Web API and SOE.",
+                MainImage:"img/portfolio/geoExp/logo.png"
             },
 
             {
@@ -56,7 +57,9 @@ $scope.HideSelectedImage=function()
                 UsedPlaces:"It was used in Riyadh Agency for Municipal and Rural Affairs .",
                 ScreenShots:["img/portfolio/mobileExp/logo.png","img/portfolio/mobileExp/first.png","img/portfolio/mobileExp/second.png"],
                 WebLink: "https://play.google.com/store/apps/details?id=io.cordova.myapp382999",
-                Technologies:"Technologies used are HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax , Web API and Phonegap ."
+                Technologies:"Technologies used are HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax , Web API and Phonegap .",
+                MainImage:"img/portfolio/mobileExp/logo.png"
+
             },
 
             {
@@ -66,7 +69,8 @@ $scope.HideSelectedImage=function()
                 UsedPlaces:"It was used in Hail Municipality",
                 ScreenShots:["img/portfolio/licSystem/logo.png","img/portfolio/licSystem/first.png","img/portfolio/licSystem/third.png"],
                 WebLink: "http://83.101.140.98/hajl",
-                Technologies:"Technologies used are HTML5 , CSS3 , JQuery , Arcgis Javascript ,Angular Js , Ajax , Web API and oracle."
+                Technologies:"Technologies used are HTML5 , CSS3 , JQuery , Arcgis Javascript ,Angular Js , Ajax , Web API and oracle.",
+                MainImage:"img/portfolio/licSystem/logo.png"
             },
             {
                 Title: "Complaint System (Web,Mobile)",
@@ -74,17 +78,19 @@ $scope.HideSelectedImage=function()
                 AwesomeIcon: "bullhorn",
                 UsedPlaces:"It was used in Mekkah municipality",
                 ScreenShots:["img/portfolio/complaintsSys/logo.png","img/portfolio/complaintsSys/fifth.png","img/portfolio/complaintsSys/sixth.png","img/portfolio/complaintsSys/seventh.png","img/portfolio/complaintsSys/first.png","img/portfolio/complaintsSys/second.png","img/portfolio/complaintsSys/third.png"],
-                WebLink: "http://83.101.140.98/geoexplorer/",
-                MobileLink: "http://83.101.140.98/geoexplorer/",
-                Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax  ,oracle, Web API and Phonegap ."
+                WebLink: "http://www.tam-holymakkah.com:70/MakkahComplaintJavaScript/login.html",
+                MobileLink: "https://play.google.com/store/apps/details?id=com.phonegap.newmekkaComplaints",
+                Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax  ,oracle, Web API and Phonegap .",
+                MainImage:"img/portfolio/complaintsSys/logo.png"
             },
             {
                 Title: "Madinah Building Condtions Managment",
-                Description: "This is a web application that provides governmental ability to insert and edit building condition in a spatail way thrugh feature editing",
+                Description: "This is a web application that provides  ability to insert and edit building condition in a spatail way thrugh feature editing",
                 Src: "img/portfolio/Madina/logo.jpg",
                 UsedPlaces:"It was used in Madina municipality",
                 ScreenShots:["img/portfolio/Madina/logo.jpg"],
-                Technologies:"Technologies used are  HTML5 , CSS , JQuery , Arcgis Javascript , Ajax ."
+                Technologies:"Technologies used are  HTML5 , CSS , JQuery , Arcgis Javascript , Ajax .",
+                MainImage:"img/portfolio/Madina/logo.jpg"
             },
             {
                 Title: "DotGeo",
@@ -92,14 +98,18 @@ $scope.HideSelectedImage=function()
                 Src: "img/portfolio/dotGeo/logo.jpg",
                 UsedPlaces:"It was used in Egypt Ministry of planning",
                 ScreenShots:["img/portfolio/dotGeo/logo.jpg"],
-                Technologies:"Technologies used are silverlight and oracle"
+                Technologies:"Technologies used are silverlight and oracle",
+                MainImage:"img/portfolio/dotGeo/logo.jpg",
+                WebLink:"http://www.esrinea.com/Geo_Overview.html"
             },{
                 Title: "Bajyal",
-                Description: "This is a web application that provides different exams like holland exam for detecting student",
+                Description: "This is a web application that provides different career detection and personality test exams like holland exam for detecting student preferences",
                 Src: "img/company/bajyal.png",
                 UsedPlaces:"It was used in King AbdElaziz University",
                 ScreenShots:["img/company/bajyal.png"],
-                Technologies:"Technologies used are Asp.net Web forms , MVP , Wcf ,MS Testing framework , Sql Server"
+                Technologies:"Technologies used are Asp.net Web forms , MVP , Wcf ,MS Testing framework , Sql Server",
+                MainImage:"img/company/bajyal.png",
+                WebLink:"http://bajyal.com/"
             }
 
 
@@ -124,7 +134,7 @@ $scope.HideSelectedImage=function()
             }, {
                 Src: "img/company/alkan.jpg",
                 Position: "FullStack Web Software developer",
-                Interval: "(July 2014 - Sep 2015)",
+                Interval: "(July 2014 - Sep 2014)",
                 Link: "http://www.alkancit.com/frontend/pages/Home.aspx"
 
             },
@@ -143,11 +153,11 @@ $scope.HideSelectedImage=function()
                          }
         ];
 
-        $scope.ClientSideTechnologies = ["Javascript", "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight"];
+        $scope.ClientSideTechnologies = ["Javascript", "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight","Phonegap"];
 
 
-        $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp"];
-    }
+        $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework"];
+    } 
 
 
 

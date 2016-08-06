@@ -8,7 +8,7 @@
 
     $scope.NickName = "@egydev";
 
-    $scope.Education="Computer Science Graduate AinShams University"
+    $scope.Education="Computer Science Graduate AinShams University with grade Very Good"
     $scope.Projects = [];
 
     $scope.Companies = [];

@@ -8,7 +8,7 @@
 
     $scope.NickName = "@egydev";
 
-
+    $scope.Education="Computer Science Graduate AinShams University"
     $scope.Projects = [];
 
     $scope.Companies = [];
@@ -157,7 +157,7 @@ $scope.HideSelectedImage=function()
 
 
         $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework"];
-    } 
+    }
 
 
 

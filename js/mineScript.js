@@ -41,7 +41,7 @@ $scope.HideSelectedImage=function()
         $scope.Projects = [
           {
               Title: "Iqraa",
-              Description: "This is a web application that provides quran reading ability",
+              Description: "This is a web application that provides quran listening ability",
               UsedPlaces:"Public use project",
               ScreenShots:["img/portfolio/geoExp/logo.png"],
               WebLink: "https://iqraaweb.github.io",

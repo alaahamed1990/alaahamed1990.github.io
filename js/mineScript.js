@@ -49,7 +49,17 @@ $scope.HideSelectedImage=function()
                 Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Arcgis Javascript , Ajax , Web API and SOE.",
                 MainImage:"img/portfolio/geoExp/logo.png"
             },
-
+            {
+                Title: "Iqraa",
+                Description: "This is a web application that provides quran reading ability",
+                AwesomeIcon: "globe",
+                UsedPlaces:"",
+                ScreenShots:["img/portfolio/geoExp/logo.png"],
+                WebLink: "https://iqraaweb.github.io",
+                Src: "img/logo.jpg",
+                Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Angular Js,Bootstrap",
+                MainImage:"img/portfolio/geoExp/logo.png"
+            },
             {
                 Title: "Geo-Explorer (Mobile)",
                 Description: "This is a mobile application that provides different geo-spatial functions like searching ,redlining , measuring and searching for online building license transaction .",

@@ -47,6 +47,10 @@
                     </li>
 
                     <li class="page-scroll">
+                      <a href="#certificates">Certificates</a>
+                    </li>
+
+                    <li class="page-scroll">
                         <a href="#experience">Experience</a>
                     </li>
                     <li class="page-scroll">
@@ -81,6 +85,27 @@
             </div>
         </div>
     </header>
+
+    <section id="certificates" class="experienceSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Certificates</h2>
+                    <hr class="star-primary experienceArrow">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4" ng-repeat="certificate in Certificates" >
+                    <div class="portfolio-item experience center-block certSection">
+                        <img src="{{certificate.Logo}}"  class="img-responsive center-block" />
+                        <h5 class="text-center header">{{certificate.Title}}</h4>
+                        <h4 class="text-center header "><a class="showBtn" href="{{certificate.Url}}">Show</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Portfolio Grid Section -->
 
     <section id="experience" class="experienceSection">
@@ -133,7 +158,7 @@
                     </div>
                 </div>
             </div>
-              <h4 class="text-center note"> Other Projects can be found in <a href="https://drive.google.com/file/d/0BytZS8nJMaf2SlJVcE5nQ3RULTg/view?usp=sharing" style="text-decoration:underline;;" >resume</a> </h3>
+              <h4 class="text-center note"> More Projects can be found in <a href="https://drive.google.com/file/d/0BytZS8nJMaf2eXdtbGRQZ2ZQWWs/view?usp=sharing" style="text-decoration:underline;;" >resume</a> </h3>
         </div>
     </section>
     <!-- About Section -->
@@ -158,7 +183,7 @@
             </div>
 
             <div class="text-center">
-            <a href="https://drive.google.com/file/d/0BytZS8nJMaf2SlJVcE5nQ3RULTg/view?usp=sharing" class="btn btn-lg btn-outline">
+            <a href="https://drive.google.com/file/d/0BytZS8nJMaf2eXdtbGRQZ2ZQWWs/view?usp=sharing" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Resume
                     </a>
                               <a href="https://www.dropbox.com/s/buvnqlr1pz1cq3r/4434028399971171_alaahamed%20-%20csharpassignment.zip?dl=0" class="btn btn-lg btn-outline">

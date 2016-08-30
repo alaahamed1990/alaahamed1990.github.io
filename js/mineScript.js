@@ -38,6 +38,25 @@ $scope.HideSelectedImage=function()
 
     $scope.Init = function () {
 
+
+       $scope.Certificates=[
+
+          {
+            Logo:"http://dev.topheman.com/wp-content/uploads/2013/12/mongodb-university-logo.png",
+            Title:"Introduction to MongoDb with Mean Stack",
+            Technologies:" ",
+            Url:"https://courses.edx.org/certificates/83e8e93a177f4bb0a57c74cf4116ffa3"
+          },
+          {
+            Logo:"https://ambassador-api.s3.amazonaws.com/uploads/portal/655/2014_09_16_20_43_07_Logo-horizontal.png",
+            Title:"Shaping Up With AngularJs",
+            Technologies:"AngularJs",
+            Url:"https://www.codeschool.com/users/egydev1990/badges/392"
+          }
+
+       ];
+
+
         $scope.Projects = [
 
             {
@@ -164,10 +183,10 @@ $scope.HideSelectedImage=function()
                          }
         ];
 
-        $scope.ClientSideTechnologies = ["Javascript", "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight","Phonegap"];
+        $scope.ClientSideTechnologies = ["Javascript", "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight","Phonegap", "AngularJs" , "Karma" , "Browsify" ,"Ionic"];
 
 
-        $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework","MS Testing"];
+        $scope.ServerSideTechnologies = ["PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework","MS Testing","MongoDb", "NodeJs" ,"Mongoose" , "Mocha-Test" , "gulp"];
     }
 
 

@@ -64,7 +64,11 @@ height: 100%;
 
 .header {
     font-weight: bold;
+    margin-top:20px;
+    font-family: FontAwesome;
+    line-height: 1.5;
 }
+
 
 
 .offer-img img{
@@ -293,4 +297,26 @@ margin-left: auto;
   margin-bottom: 20px;
 text-align: left;
 line-height: 30px;
+}
+
+.certSection
+{
+  height:260px;padding:10px;
+}
+.showBtn
+{
+  background-color: #18BC9C;
+color: white;
+padding: 10px;
+border-radius: 10px;
+}
+
+.certificateBoby
+{
+    background-color: #f1f1f1;
+    color: #2C3E50;
+    font-family: FontAwesome;
+    line-height: 2;
+    padding: 10px;
+    border-radius: 10px;
 }

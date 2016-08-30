@@ -75,7 +75,8 @@ $scope.HideSelectedImage=function()
                 UsedPlaces:"Public use project",
                 ScreenShots:["img/portfolio/geoExp/logo.png"],
                 WebLink: "https://iqraaweb.github.io",
-                Src: "img/logo.jpg",
+                Src: "Iqraa",
+                IsSrcText:"true",
                 Technologies:"Technologies used are  HTML5 , CSS3 , JQuery , Angular Js,Bootstrap",
                 MainImage:"img/logo.jpg"
             },

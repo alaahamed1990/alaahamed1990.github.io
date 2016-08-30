@@ -150,7 +150,8 @@
                                 </div>
                             </div>
 
-                            <img ng-if="project.Src" src="{{project.Src}}" class="img-responsive appImg" alt="" >
+                            <img ng-if="project.Src && !project.IsSrcText" src="{{project.Src}}" class="img-responsive appImg" alt="{{project.Src}}" >
+                            <span ng-if="project.IsSrcText">{{project.Src}}</span>
                             <i ng-if="project.AwesomeIcon" class="fa fa-fw fa-{{project.AwesomeIcon}}"></i>
 
                         </a>

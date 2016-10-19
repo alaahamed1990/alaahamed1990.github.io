@@ -17,10 +17,23 @@
 var app = angular.module('myApp', []);
 app.controller('myCtrl', function($scope, $http) {
 
-  $http.post('http://localhost:5000/api/users',  { 'test' : 'this is a test' }).then(function(response) {
+  
+  var xsrf = $.param({test: "this is a test"});
+$http({
+    method: 'POST',
+    url: 'http://localhost:5000/api/users',
+    data: xsrf,
+    headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+}).then(function(response) {
       $scope.myWelcome = response.data;
   });
- /* var req = {
+  
+  
+  
+ /* $http.post('http://localhost:5000/api/users',  { 'test' : 'this is a test' }).then(function(response) {
+      $scope.myWelcome = response.data;
+  });
+  var req = {
     method: 'POST',
     url: 'http://localhost:5000/api/users',
     headers: {'Content-Type': 'application/x-www-form-urlencoded'},  

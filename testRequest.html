@@ -20,9 +20,6 @@ app.controller('myCtrl', function($scope, $http) {
   var req = {
     method: 'POST',
     url: 'http://localhost:5000/api/users',
-    headers: {
-   'Content-Type': "application/json"
- },
     
     data:{test:"this is a simple test"}
 }

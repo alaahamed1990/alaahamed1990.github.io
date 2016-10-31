@@ -45,9 +45,19 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-
+                    <li class="page-scroll">
+                        <a href="#technologies">Technologies</a>
+                    </li>
+                    
+                    <li class="page-scroll">
+                        <a href="#github">Github Projects</a>
+                    </li>
+                    
                     <li class="page-scroll">
                       <a href="#certificates">Certificates</a>
+                    </li>
+                     <li class="page-scroll">
+                        <a href="#portfolio">Portfolio</a>
                     </li>
 
                     <li class="page-scroll">
@@ -55,9 +65,6 @@
                     </li>
                     <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#technologies">Technologies</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>
@@ -85,7 +92,73 @@
             </div>
         </div>
     </header>
+<section class="success" id="technologies">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Technologies</h3>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4>Client Side Technologies</h4>
+                    <p class="well"><span class="technology" ng-repeat="clientSideTech in ClientSideTechnologies">{{clientSideTech}}</span></p>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <h4>Server Side Technologies</h4>
+                    <p class="well"><span class="technology" ng-repeat="serverSideTech in ServerSideTechnologies">{{serverSideTech}}</span></p>
+                </div>
 
+            </div>
+
+            <div class="text-center">
+            <a href="https://drive.google.com/file/d/0BytZS8nJMaf2eXdtbGRQZ2ZQWWs/view?usp=sharing" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Resume
+                    </a>
+                              <a href="https://www.dropbox.com/s/buvnqlr1pz1cq3r/4434028399971171_alaahamed%20-%20csharpassignment.zip?dl=0" class="btn btn-lg btn-outline">
+                                          <i class="fa fa-download"></i> Work Sample
+                                      </a>
+
+                                    </div>
+
+
+        </div>
+    </section>
+    
+    <section class="success" id="github">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>Github Project <i class="fa fa-fw fa-mobile contactIcon"></i></h3>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4>TDMATRIX</h4>
+                    <p class="well"><span class="technology">Javasciprt based open source library used for parsing documents using term documents matrix and also uses disjoint sets to group documents based on their similarity</span>. You can see it <a href="https://tdmatrixsite.github.io">here</a></p>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <h4>TDMeasure</h4>
+                    <p class="well"><span class="technology">Web based app that used TDMATRIX to measure similarity between two inserted documents</span>. You can see it <a href="https://tdmeasure.github.io">here</a></p>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+            <a href="/CV.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Resume
+                    </a>
+                              <a href="https://www.dropbox.com/s/buvnqlr1pz1cq3r/4434028399971171_alaahamed%20-%20csharpassignment.zip?dl=0" class="btn btn-lg btn-outline">
+                                          <i class="fa fa-download"></i> Work Sample
+                                      </a>
+
+                                    </div>
+
+
+        </div>
+    </section>
     <section id="certificates" class="experienceSection">
         <div class="container">
             <div class="row">
@@ -163,39 +236,7 @@
         </div>
     </section>
     <!-- About Section -->
-    <section class="success" id="technologies">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Technologies</h3>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h4>Client Side Technologies</h4>
-                    <p class="well"><span class="technology" ng-repeat="clientSideTech in ClientSideTechnologies">{{clientSideTech}}</span></p>
-                </div>
-                <div class="col-sm-12 text-center">
-                    <h4>Server Side Technologies</h4>
-                    <p class="well"><span class="technology" ng-repeat="serverSideTech in ServerSideTechnologies">{{serverSideTech}}</span></p>
-                </div>
-
-            </div>
-
-            <div class="text-center">
-            <a href="https://drive.google.com/file/d/0BytZS8nJMaf2eXdtbGRQZ2ZQWWs/view?usp=sharing" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Resume
-                    </a>
-                              <a href="https://www.dropbox.com/s/buvnqlr1pz1cq3r/4434028399971171_alaahamed%20-%20csharpassignment.zip?dl=0" class="btn btn-lg btn-outline">
-                                          <i class="fa fa-download"></i> Work Sample
-                                      </a>
-
-                                    </div>
-
-
-        </div>
-    </section>
+    
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">

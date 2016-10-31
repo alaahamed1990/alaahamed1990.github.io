@@ -2,6 +2,11 @@
   font-family: FontAwesome !important;
 }
 
+.github a
+{
+  color:black;
+}
+
 .note
 {
   color:#18BC9C;

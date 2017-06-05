@@ -1,7 +1,14 @@
 ﻿body {
   font-family: FontAwesome !important;
 }
-.logoSection {
+  @media (max-width:1210) {
+    .logoSection
+    {
+      display:none;
+    }
+}
+  
+.logoSection{
     text-align: center;
     font-weight: bold;
 }

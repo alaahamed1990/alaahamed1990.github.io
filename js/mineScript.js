@@ -71,7 +71,8 @@ $scope.HideSelectedImage=function()
                 WebLink: "https://mcqhub.herokuapp.com/",
                 ScreenShots:["img/portfolio/geoExp/questionWidget.png","img/portfolio/geoExp/questions.png"],
                 Technologies:"Technologies used are  Mean Stack – Angular JS – Gulp – WebPack – AWS S3 - etc",
-                MainImage:"img/portfolio/geoExp/mcqhub.png"
+                MainImage:"img/portfolio/geoExp/fac.png",
+                UsedPlaces:"Public use project",
             },
 
             {

@@ -1,7 +1,7 @@
 ﻿body {
   font-family: FontAwesome !important;
 }
-  @media (max-width:1210) {
+  @media (max-width:1205) {
     .logoSection
     {
       display:none;
@@ -11,6 +11,7 @@
 .logoSection{
     text-align: center;
     font-weight: bold;
+  display:block;
 }
 
 .mregydevlogo {

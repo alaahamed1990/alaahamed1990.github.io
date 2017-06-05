@@ -198,7 +198,7 @@ $scope.HideSelectedImage=function()
                          }
         ];
 
-        $scope.ClientSideTechnologies = ["Javascript","ES6","gulp","webpack" "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight","Phonegap", "AngularJs" , "Karma" , "Browsify" ,"Ionic"];
+        $scope.ClientSideTechnologies = ["Javascript","ES6","gulp","webpack", "Html", "Css3", "JQuery", "Angular Js","Html5" ,"Bootstrap","dojo","Arcgis Javascript API","Silverlight","Phonegap", "AngularJs" , "Karma" , "Browsify" ,"Ionic"];
 
 
         $scope.ServerSideTechnologies = ["Nodejs","Mongodb","Aws S3","Express Js","Wagner","Chai","PHP", "Asp.net", "Wcf", "MVC", "MVP","Web API", "CakePhp","Ado.Net","Entity framework","MS Testing","MongoDb", "NodeJs" ,"Mongoose" , "Mocha-Test" , "gulp"];

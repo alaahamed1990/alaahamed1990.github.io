@@ -72,7 +72,6 @@ $scope.HideSelectedImage=function()
                 Technologies:"Technologies used are  Mean Stack – Angular JS – Gulp – WebPack – AWS S3 - etc",
                 MainImage:"img/portfolio/geoExp/logo.png",
                 UsedPlaces:"Public use project",
-                IsSrcText:"true",
                 Src: "img/portfolio/geoExp/logo.png"
             },
 

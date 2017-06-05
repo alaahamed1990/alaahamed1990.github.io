@@ -67,7 +67,6 @@ $scope.HideSelectedImage=function()
                         {
                 Title: "MCQHUB (Web)",
                 Description: "Social web based application for building mcq test and sharing them with other",
-                AwesomeIcon: "globe",
                 WebLink: "https://mcqhub.herokuapp.com/",
                 ScreenShots:["img/portfolio/geoExp/questionWidget.png","img/portfolio/geoExp/questions.png"],
                 Technologies:"Technologies used are  Mean Stack – Angular JS – Gulp – WebPack – AWS S3 - etc",
